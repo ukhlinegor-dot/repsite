@@ -1,0 +1,151 @@
+@media (max-width:1140px){
+
+    .imagegroup{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imagegroup .group1,
+    .imagegroup .group2{
+        margin-bottom: 30px;
+    }
+    .flex_4 h1{
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .imagegroup .group1,
+    .imagegroup .group2,
+    .imagegroup .group3{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .container{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media(max-width:1290px){
+    .block_container{
+        flex-direction: column;
+    }
+    .blue{
+        width: auto;
+        margin: 0;
+        margin-top: 100px;
+    }
+    .gblock{
+        width: auto;
+    }
+    .container2{
+        padding: 50px;
+    }
+}
+@media(max-width:1160px){
+    .girl img{
+        max-width: 100%;
+    }
+}
+@media (max-width:940px) {
+    .logos{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logos img{
+        margin: 10px;
+    }
+    .ngroup2{
+        padding-right: 24px;
+    }
+    .ngroup3{
+        display: none;
+    }
+    .ngroup1{
+        content: url('img/icons8-hamburger-menu-96.png');
+        padding-left: 24px;
+    }
+    .building{
+        display: none;
+    }
+    .block1{
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+
+    }
+    .block1 h1{
+        text-align: center;
+    }
+    .block2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .girl{
+        display: none;
+    }
+    .bot5{
+        flex-wrap: wrap;
+    }
+    .gblock h1,
+    .gblock h2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .wblock1{
+        max-width: 800px;
+        margin-bottom: 50px;
+    }
+    .block21{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:610px){
+    .blue{
+        width: auto;
+        max-width: 100%;
+    }
+    .top5 h1{
+        font-size: 40px;
+    }
+
+    .left{
+        max-width: 30%;
+        margin-right: 0;
+    }
+    .right{
+        max-width: 40%;
+    }
+    .block1 h1{
+        font-size: 50px;
+    }
+    .gblock h1{
+        font-size: 45px
+    }
+    .ngroup1{
+        content: url('img/icons8-hamburger-menu-48.png')
+    }
+    .ngroup2 h1{
+        font-size: 30px;
+    }
+    .ngroup2 h1::before{
+        content: url('img/vector\ 25\ 25.png');
+        max-width: 30px;
+    }
+    .imagegroup img{
+        max-width: 100%;
+    }
+    .block2 h1{
+        font-size: 50px;
+    }
+    .flex_4 h1{
+        font-size: 50px;
+    }
+    .profile{
+        margin-bottom: 20px;
+    }
+}
